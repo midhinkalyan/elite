@@ -1,0 +1,56 @@
+.sidebar{
+    background-color: rgb(26, 22, 22);
+    width:20%;
+    height:100vh;
+}
+.sidebar-image img{
+    padding-left: 10px;
+    padding-top:10px;
+    width:25px;
+    height:25px;
+}
+.sidebar-list li{
+    color:white;
+    list-style-type: none;
+     padding: 5px;
+    cursor: pointer;
+}
+.sidebar-list li:hover{
+    background-color: blue;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+.sidebar-image{
+    display:flex;
+    justify-content: center;
+}
+.sidebar-image h1{
+padding-left:10px;
+padding-top: 5px;
+color: white;
+font-size: 15px;
+}
+.main{
+    display: flex;
+    height:100vh;
+}
+.form{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.form-heading{
+    display: flex; 
+    flex-direction: column;
+    gap:10px;
+}
+.form-details{
+    display: flex; 
+    flex-direction: column;
+    gap:10px;
+}   

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+
+</head>
+<body>
+    <div class="main">
+  <div class="header">
+    <div class="logo">
+        <p>
+            MIDHIN APP
+         </p>
+         <img src="..\assestsc\logo.png" alt="logo" class="image">
+    </div>
+   <div class="symbols">
+    <h3 class="minus">
+        -
+    </h3>
+    <h3>
+        []
+    </h3>
+    <h3>
+        X
+    </h3>
+   </div>
+
+  </div>
+    
+    <div class="container">
+           <h1 class="heading">
+         WELCOME TO ABC
+           </h1>
+           <label>
+            name:
+           <input type="text" placeholder="enter the name" class="name"/>
+    
+           </label>
+           <label >password:
+           <input type="password" placeholder="enter a password" class="pass"/>
+           </label>
+           <label>
+            <button class="but" onclick="fun()">
+                submit
+            </button>
+            <button class="regis" onclick="regist()">
+               register
+            </button>
+           </label>
+           
+            <p class="valid"></p>
+
+
+    </div>
+    </div>
+    <div class="register" style="display: none;">
+        <p style="padding-left: 191px;"><b> REGISTER</b></p>
+        <label>
+            NAME:
+           <input type="text" placeholder="enter the name" class="rname"/>
+           </label>
+           <br>
+           <label >PASSWORD:
+           <input type="password" placeholder="enter a password" class="pass"/>
+           </label>
+           <br>
+           <label >RE-type PASSWORD:
+            <br>
+            <input type="password" placeholder="re-enter a password" class="pass"/>
+            </label>
+            <br>
+          
+
+    <label>GENDER</label>
+    <div style="display: flex;flex-direction: row;    flex-direction: row;
+    padding-left: 40px;">
+      <label><input type="radio" name="gender" /> Male</label>
+      <label><input type="radio" name="gender" /> Female</label>
+    </div>
+   
+
+  <br>
+  <div style="width:90px;">
+    <label for="dob" class="dob">DOB</label>
+    <input type="date" id="dob" style="margin-left: 80px; width: 290px;" />
+  </div>
+  <br>
+  <div class="form-group">
+    <label>SUBJECTS</label>
+    <div class="options">
+      <label><input type="checkbox" /> Physics</label>
+      <label><input type="checkbox" /> Maths</label>
+      <label><input type="checkbox" /> Chemistry</label>
+    </div>
+  </div>
+  <br>
+  <div>
+    <label for="state">SELECT THE STATE</label>
+    <select for="state" STYLE="MARGIN-left: 90PX;">
+      <option>Andhra Pradesh</option>
+      <option>Telangana</option>
+      <option>Chennai</option>
+    </select>
+  </div>
+      <br>
+      <br>
+      
+
+           <button style="margin-left: 210px;">
+            REGISTER
+           </button>
+
+    </div>
+    <p class="welcome" style="display: none;">midh</p>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.container {
+    width: 450px;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(218, 243, 243); 
+    border-radius: 5px ;
+    margin-top:150px;
+    border: 3px solid black;
+}
+.register label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+
+.register{
+    width: 450px;
+    height:550px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(218, 243, 243); 
+    border-radius: 5px ;
+    margin-top:50px;
+    margin-bottom: 360PX;
+    border: 3px solid black;
+    padding-right: 40px;;
+}
+
+.header{
+    background-color :rgb(0, 255, 255);
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    gap:1000px;
+    width:100uh;
+}
+body{
+    margin:0;
+    padding: 0;
+    
+    background: linear-gradient(90deg,rgb(68, 68, 186),rgb(78, 158, 204),rgb(209, 77, 148));
+}
+
+button{
+    background-color:blue;
+    color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading{
+    text-align: center;
+}
+
+input,label{
+   padding-left: 50px;;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.name{
+    margin-left: 35px;;
+}
+p{
+    padding-top: 13px;;
+    padding-left:60px;
+}
+img{
+    width:52px;
+}
+.logo,.symbols{
+    display: flex;
+    flex-direction: row ;
+    gap:30px;
+}
+.minus{
+    size: 0cqb;
+}
+.valid{
+    color: rgb(216, 56, 16);
+    padding-left: 130px;
+    margin-top: 1px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .options {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+  }
+  .dob{
+    width: 110px;
+  }
