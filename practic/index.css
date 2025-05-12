@@ -1,0 +1,59 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Skills Section Styling */
+#skills {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #e2e8f0;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+/* Skills container grid */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual skill cards */
+.skill {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px 25px;
+  width: 260px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-6px);
+}
+
+.skill h3 {
+  font-size: 1.3rem;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.skill ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1rem;
+}
